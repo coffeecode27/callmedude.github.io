@@ -1226,7 +1226,7 @@ color: var(--first-color-lighter);
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 355px){
+@media all and (max-width: 355px){
 
     .container{
         margin-left: var(--mb-1);
@@ -1316,7 +1316,7 @@ color: var(--first-color-lighter);
 
 
 /* For medium devices */
-@media screen and (min-width: 568px){
+@media all and (min-width: 568px){
 
     .home__content{
         grid-template-columns: max-content 1fr 1fr;
@@ -1371,7 +1371,7 @@ color: var(--first-color-lighter);
 }
 
 
-@media screen and (min-width:768px){
+@media all and (min-width:768px){
 
     .container{
         margin-left: auto;
@@ -1599,7 +1599,7 @@ color: var(--first-color-lighter);
 
 
 /* For large devices */
-@media screen and (min-width:1024px){
+@media all and (min-width:1024px){
 
     .header,
     .main,
