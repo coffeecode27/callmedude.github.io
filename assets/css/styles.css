@@ -1226,7 +1226,7 @@ color: var(--first-color-lighter);
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px){
+@media screen and (max-width: 355px){
 
     .container{
         margin-left: var(--mb-1);
@@ -1300,6 +1300,14 @@ color: var(--first-color-lighter);
     .testimonial__data,
     .testimonial__description{
         text-align: center;
+   
+        
+        .footer__links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 1rem;
+    
     }
 
 }
