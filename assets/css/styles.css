@@ -1310,6 +1310,11 @@ color: var(--first-color-lighter);
       justify-content: space-evenly;
       gap: 1rem; 
     }
+    
+    .footer__socials{
+        display: flex;
+        justify-content: center;
+    }
 
 }
 
